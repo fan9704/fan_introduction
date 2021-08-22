@@ -1,0 +1,282 @@
+body {
+    background-color: #000;
+}
+
+* {
+    position: relative;
+}
+
+#title {
+    text-decoration: none;
+    color: #fff
+}
+
+.header {
+    background-color: #000;
+    color: white;
+    padding: 20px 10px 10px 10px;
+}
+
+.headlogo {
+    height: 40px;
+    width: 40px;
+    display: flex;
+}
+
+.logo {
+    padding: 5px 20px 5px 20px;
+    font-size: x-large;
+    position: relative;
+    left: 20px;
+    display: flex;
+}
+
+.introduction {
+    align-items: right;
+    text-align: right;
+    padding: 20px;
+}
+
+.headerlink {
+    text-decoration: none;
+    margin: 0px 10px;
+    color: rgb(65, 253, 65);
+}
+
+.navlink {
+    text-align: right;
+    right: 20px;
+}
+
+.navlink :hover {
+    transition: 0.5s;
+    color: ivory;
+}
+
+
+/* slidetoggle */
+
+#allclassname {
+    display: none;
+    border: 5px solid rgb(7, 122, 7);
+    background-color: rgb(107, 224, 152);
+    text-align: center;
+    padding: 10px;
+    line-height: 2;
+}
+
+.lessonrow {
+    text-align: center;
+    line-height: 3;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.lessonrow2 {
+    line-height: 2.5;
+    font-size: 16px;
+}
+
+#allclassname a {
+    text-decoration: none;
+    color: black;
+}
+
+#allclassname a:hover {
+    color: white;
+    transition: 0.5s;
+}
+
+
+/* TOP */
+
+.shell {
+    background-color: rgb(120, 245, 120);
+    padding: 5px;
+}
+
+.Easyintroduction,
+.Normalintroduction {
+    background-color: #000;
+    color: #fff;
+    padding: 30px;
+}
+
+.classTitle {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+
+.classImg {
+    position: relative;
+}
+
+.classImg img {
+    position: absolute;
+    left: 25%;
+    margin: 20px;
+}
+
+.classText {
+    padding: 40px;
+    line-height: 1.5;
+}
+
+.classText h2 {
+    text-align: center;
+    line-height: 3;
+}
+
+
+/* ALL CLASs */
+
+.lessontitle {
+    font-size: 40px;
+    text-align: center;
+    line-height: 5;
+    color: white;
+}
+
+#lesson {
+    padding: 0 50px;
+    background-color: rgb(2, 49, 2);
+}
+
+.lessonsort {
+    border-radius: 3px white;
+    padding: 30px;
+    margin: 20px;
+}
+
+h3 {
+    color: darkgreen;
+    text-align: center;
+}
+
+.lowlesson {
+    border-radius: 5%;
+    background-color: rgb(80, 230, 147);
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.midlesson {
+    border-radius: 5%;
+    background-color: rgb(212, 235, 113);
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.highlesson {
+    border-radius: 5%;
+    background-color: rgb(236, 130, 130);
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.lessontitle {
+    font-size: 40px;
+    text-align: center;
+    line-height: 5;
+    color: white;
+}
+
+#lesson {
+    padding: 0 50px;
+    background-color: rgb(2, 49, 2);
+}
+
+.lessonsort {
+    border-radius: 3px white;
+    padding: 30px;
+    margin: 20px;
+}
+
+h3 {
+    color: darkgreen;
+    text-align: center;
+}
+
+.lowlesson {
+    border-radius: 5%;
+    background-color: rgb(80, 230, 147);
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.midlesson {
+    border-radius: 5%;
+    background-color: rgb(212, 235, 113);
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.highlesson {
+    border-radius: 5%;
+    background-color: rgb(236, 130, 130);
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+
+/* FAQ */
+
+.FAQshell {
+    background-color: rgb(0, 0, 0);
+    padding: 5px;
+}
+
+.FAQ {
+    background-color: rgba(64, 218, 123, 0.973);
+}
+
+.FAQ hr {
+    border: #000 solid 3px;
+    margin-top: 0;
+    display: none;
+}
+
+.FAQTitle {
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.FAQTitle span {
+    border: solid white 5px;
+    padding: 0px 20px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.FAQrow {
+    padding: 10px;
+    margin: 10px;
+}
+
+.FAQcol {
+    display: none;
+    border: rgb(6, 146, 69) solid 6px;
+    box-sizing: border-box;
+    padding: 8px;
+}
+
+.FAQrow h4 {
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+/* END */
+
+.footer {
+    background-color: #000;
+    text-align: center;
+    color: white;
+    line-height: 10;
+}

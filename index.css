@@ -1,0 +1,345 @@
+    @media screen and (max-width:768px) {
+        * {
+            font-size: 50%;
+        }
+        .menu_btn {
+            width: 40px;
+            height: 40px;
+            background-color: #fff;
+            color: green;
+            display: block;
+            position: fixed;
+            top: 5px;
+            right: 10px;
+        }
+        .menu_btn span {
+            opacity: 0;
+            width: 1px;
+            height: 1px;
+            display: block;
+            overflow: hidden;
+        }
+        .navlink {
+            display: block;
+            justify-content: space-between;
+            background-color: #202924;
+            align-items: center;
+        }
+    }
+    
+    .menu_btn {
+        display: none;
+    }
+    
+    #menu_control {
+        position: absolute;
+        z-index: -2;
+        opacity: 0;
+    }
+    
+    .menu_btn::before {
+        content: "";
+        position: absolute;
+        height: 2px;
+        width: 36px;
+        background-color: #aaa;
+        top: 0;
+        bottom: 0;
+        left: 2px;
+        margin: auto;
+        box-shadow: 0px 8px 0px #aaa 0px -8px 0px #aaa;
+    }
+    
+    #menu_control:checked~.navlink {
+        left: 0;
+    }
+    
+    body {
+        background-color: #000;
+    }
+    
+    * {
+        position: relative;
+    }
+    
+    #title {
+        text-decoration: none;
+        color: #fff
+    }
+    
+    .header {
+        background-color: #000;
+        color: white;
+        padding: 20px 10px 10px 10px;
+    }
+    
+    .headlogo {
+        height: 40px;
+        width: 40px;
+        display: flex;
+    }
+    
+    .logo {
+        padding: 5px 20px 5px 20px;
+        font-size: x-large;
+        position: relative;
+        left: 20px;
+        display: flex;
+    }
+    
+    .introduction {
+        align-items: right;
+        text-align: right;
+        padding: 20px;
+    }
+    
+    .Lesson_title {
+        border-radius: 20px;
+        margin: 0px 15%;
+        background-color: rgb(92, 153, 92);
+    }
+    
+    .headerlink {
+        text-decoration: none;
+        margin: 0px 10px;
+        color: rgb(65, 253, 65);
+    }
+    
+    .navlink {
+        text-align: right;
+        right: 20px;
+    }
+    
+    .navlink :hover {
+        transition: 0.5s;
+        color: ivory;
+    }
+    
+    .fullcol {
+        height: 100px;
+        background-color: #000;
+    }
+    
+    .topcontainer {
+        background-color: #000;
+        color: white;
+        margin: auto;
+        padding: auto;
+    }
+    
+    .bodyimg {
+        padding: 50px;
+    }
+    
+    .contenttop {
+        text-align: center;
+        vertical-align: middle;
+    }
+    
+    .h1top {
+        text-align: center;
+        vertical-align: middle;
+        color: rgb(120, 245, 120);
+        position: absolute;
+        top: 50%;
+        left: 20%;
+        line-height: 1.5;
+        display: none;
+    }
+    
+    .h1top .h1p {
+        color: white;
+        font-size: 16px;
+        display: none;
+    }
+    
+    #who {
+        padding: 25px;
+        text-align: center;
+        background-color: rgb(120, 245, 120);
+    }
+    
+    .whos {
+        background-color: black;
+        color: white;
+        padding: 20px;
+    }
+    
+    .left-col {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .col-6 {
+        position: relative;
+    }
+    
+    .img-C {
+        display: inline-block;
+    }
+    
+    .contenth1 {
+        line-height: 1.5;
+        color: rgb(120, 245, 120);
+    }
+    
+    .lessontitle {
+        font-size: 40px;
+        text-align: center;
+        line-height: 5;
+        color: white;
+    }
+    
+    #lesson {
+        padding: 0 50px;
+        background-color: rgb(2, 49, 2);
+    }
+    
+    .lessonsort {
+        border-radius: 3px white;
+        padding: 30px;
+        margin: 20px;
+    }
+    
+    h3 {
+        color: darkgreen;
+        text-align: center;
+    }
+    
+    .lowlesson {
+        border-radius: 5%;
+        background-color: rgb(80, 230, 147);
+        line-height: 1.5;
+        font-size: 18px;
+    }
+    
+    .midlesson {
+        border-radius: 5%;
+        background-color: rgb(212, 235, 113);
+        line-height: 1.5;
+        font-size: 18px;
+    }
+    
+    .highlesson {
+        border-radius: 5%;
+        background-color: rgb(236, 130, 130);
+        line-height: 1.5;
+        font-size: 18px;
+    }
+    
+    .contact {
+        background-color: rgb(120, 245, 120);
+        padding: 40px;
+    }
+    
+    .line-contact {
+        font-size: 22px;
+        line-height: 2;
+        position: relative;
+    }
+    
+    .line-contact p {
+        position: absolute;
+        top: 25%;
+        left: 25%;
+    }
+    
+    .img-line {
+        margin: 30px;
+    }
+    
+    .contactcol {
+        background-color: rgb(0, 0, 0);
+        color: white;
+        margin: auto;
+        border-radius: 5px;
+        text-align: center;
+    }
+    
+    .contactcol h1 {
+        color: rgb(255, 255, 255);
+        line-height: 3;
+    }
+    
+    .aboutme {
+        line-height: 2;
+    }
+    
+    .contactcol p {
+        color: white;
+    }
+    /* form */
+    
+    .form {
+        margin: auto;
+        padding: 5px;
+        background-color: rgb(107, 224, 152);
+        border: #000 solid 3px;
+    }
+    
+    .formtext {
+        width: 10%;
+        line-height: 2;
+        margin: 10px;
+    }
+    
+    .table fieldset {
+        background-color: #000;
+        color: white;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    
+    legend {
+        border: solid white;
+    }
+    
+    .table h1 {
+        text-align: center;
+        margin: 10px 0px;
+        padding: 10px;
+        background-color: #000;
+        color: rgb(65, 253, 65);
+        /*rgb(107, 224, 152); */
+    }
+    /* form  */
+    
+    .footer {
+        background-color: #000;
+        text-align: center;
+        color: white;
+        line-height: 10;
+    }
+    
+    #allclassname {
+        display: none;
+        border: 5px solid rgb(7, 122, 7);
+        background-color: rgb(107, 224, 152);
+        text-align: center;
+        padding: 10px;
+        line-height: 2;
+    }
+    
+    .lessonrow {
+        text-align: center;
+        line-height: 3;
+        font-size: 20px;
+        font-weight: bolder;
+    }
+    
+    .lessonrow2 {
+        line-height: 2.5;
+        font-size: 16px;
+    }
+    
+    #allclassname a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    #allclassname a:hover {
+        color: white;
+        transition: 0.5s;
+    }
